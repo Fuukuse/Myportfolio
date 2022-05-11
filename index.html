@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="welcome position-relative">
+            <div class="box animate__animated animate__fadeOut"></div>
+            <div class="box-2 d-flex flex-column justify-content-center align-items-center">
+                <h2 class="text-focus-in">My name is <span class="text-main">Hoang Trang</span></h2>
+                <h3 class="text-focus-in-1">
+                    Welcome to my <span class="element text-main"></span></h3>
+            </div>
+            <div class="box-3 text-center text-focus-in-1">
+                <div class="an">
+                    <h6>Scroll down</h6>
+                    <i class="fa fa-angle-double-down fa-2x"></i>
+                </div>
+            </div>
+        </div>
+
+        <!------------------ Nav --------------------->
+        <button id="mybtn" onclick="topFunction()"><i class="fa fa-arrow-up"></i></button>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <h5 class="text-main">N.T.H.T</h5>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-3 active">
+                            <a class="nav-link" href="index.html"><span class="text-sub">Home</span><span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown px-3 active">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-expanded="false"><span class="text-sub">Projects</span></a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#sem-1"><span class="text-sub">Sem 1</span></a>
+                                <a class="dropdown-item" href="#sem-2"><span class="text-sub">Sem 2</span></a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><span class="text-sub">More</span></a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-3 active">
+                            <a class="nav-link" href="gallery.html"><span class="text-sub">Gallery</span></a>
+                        </li>
+                        <li class="nav-item px-3 active">
+                            <a class="nav-link" href="#footer"><span class="text-sub">Contact</span></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Type keyword"
+                            aria-label="Search">
+                        <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <!------------------ About ----------------------->
+        <div class="container">
+            <div class="row align-items-center justify-content-center py-5 ">
+                <div class="col-md-5 order-md-1 text-center profile" data-aos="zoom-out-left" data-aos-duration="2000">
+                    <img src="img/profile.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-7 order-md-2" data-aos="zoom-in-right" data-aos-duration="2000">
+                    <h3 class="text-main">Hello!</h3>
+                    <h5 class="text-sub">Thank you for visiting my site!</h5>
+                    <p class="text-black-50">I am currently a student at Arena Multimedia studying DCIM program. Below
+                        are
+                        references of design tools I can use to illustrate my ideas/projects. <br>
+                        Please take a look at my portfolio below as well!</p>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="img/illustrator.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/photoshop.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/photoshop-lightroom.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/indesign.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/dreamweaver.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/VSC.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/Blender_23505.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------ Sem 1 ------------------->
+        <div id="sem-1">
+            <div class="container p-5" data-aos="flip-down" data-aos-duration="2000">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-6 pb-5">
+                                    <img src="img/mockup.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="col-md-6 d-flex flex-column justify-content-between align-items-center p-5">
+                                    <img src="img/logo_ringfit.png" class="w-50" alt="...">
+                                    <p>“A poster and mockup design for advertising Ringfit - a Nintendo switch game
+                                        designed
+                                        for
+                                        combination of fun and excercising”</p>
+                                    <p class="text-black-50">Image Magic - Ringfit</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6 pb-5">
+                                    <img src="img/I_JOG slide 4-14.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="col-md-6 d-flex flex-column justify-content-between align-items-center p-5">
+                                    <img src="img/I_Jog logo.png" class="w-50" alt="...">
+                                    <p>“I'Jog was the branding project for running sport. I'Jog would mainly focus on
+                                        sportwear,
+                                        shoes, accessories related to running.”</p>
+                                    <p class="text-black-50">Project Sem 1 - I'Jog</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6 pb-5">
+                                    <img src="img/Bulova 1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="col-md-6 d-flex flex-column justify-content-between align-items-center p-5">
+                                    <img src="img/bulova-1-logo-png-transparent.png" class="w-25" alt="...">
+                                    <p>“Bulova is an American timepiece manufacturing company that was founded in 1875
+                                        that
+                                        makes watches, clocks and accessories with quality that lasted with time”</p>
+                                    <p class="text-black-50">Lightroom - Bulova</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev nutchuyentrai" type="button"
+                        data-target="#carouselExampleControls" data-slide="prev">
+                        <span class="bg-main nutbam d-flex align-items-center justify-content-center"
+                            aria-hidden="true"><i class="fa fa-angle-left"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next nutchuyenphai" type="button"
+                        data-target="#carouselExampleControls" data-slide="next">
+                        <span class="bg-main nutbam d-flex align-items-center justify-content-center"
+                            aria-hidden="true"><i class="fa fa-angle-right"></i></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!------------------------- Sem 2 ----------------------------->
+        <div id="sem-2">
+            <div class="container p-5 d-flex align-items-center justify-content-center">
+                <div class="col-md-4" data-aos="fade-up-right" data-aos-duration="2000">
+                    <div class="card mauform shadow-sm">
+                        <img src="img/teoj-logo.svg" class="card-img-top p-2" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">DCW - The eye of jewelry</h5>
+                            <p class="text-black-50">Online Luxury shop and Magazine</p>
+                            <a href="https://fuukuse.github.io/DCW-NTHTrang"><button type="button"
+                                    class="btn btn-success btn-block">Visit
+                                    site</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card mauform shadow-sm">
+                        <img src="img/BPloly logo.png" class="card-img-top p-2" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">DW/ID website - BPolyLand</h5>
+                            <p class="text-black-50">A place for low poly lovers</p>
+                            <a href="https://fuukuse.github.io/BPolyLand-1/"><button type="button"
+                                    class="btn btn-success btn-block">Visit
+                                    site</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card mauform shadow-sm">
+                        <img src="img/coming-soon.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Project sem 2 - to be updated</h5>
+                            <p class="text-black-50">Please wait a awhile.</p>
+                            <button type="button" class="btn btn-success btn-block" data-toggle="modal"
+                                data-target="#exampleModal">Visit site</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">New project</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Currently the new site is not yet avaiable for upload. Please wait for awhile. <br> Please click
+                        on "Notice" button below and when the new site is available, we will send you a notice.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Notice</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------- Footer --------------------------------->
+    <div id="footer">
+        <div class="container d-flex align-items-center justify-content-center py-5">
+            <div class="col-md-6 mb-3">
+                <div class="card border-0 p-3" style="max-width: 540px;">
+                    <h3 class="text-main">Let's connect!</h3>
+                    <p class="text-black-50">If you're interested in my work, please leave me a message.
+                    <div class="row no-gutters">
+                        <input class="form-control my-sm-2" type="Name" placeholder="Name" aria-label="Name">
+                        <input class="form-control my-sm-2" type="email" placeholder="Email" aria-label="Email">
+                        <input class="form-control my-sm-2" type="Comment" placeholder="Comment" aria-label="Comment">
+                        <button class="btn btn-primary mx-auto my-sm-0" type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-md-2 d-flex flex-column justify-content-between text-main">
+                        <i class="fa fa-envelope-square fa-3x"></i>
+                        <i class="fa fa-facebook-square fa-3x"></i>
+                        <i class="fa fa-instagram fa-3x"></i>
+                    </div>
+                    <div class="col-md-10 d-flex flex-column justify-content-around text-white">
+                        <a href="#">ntht.trangnguyen@gmail.com</a>
+                        <a href="#">ntht.trangnguyen@gmail.com</a>
+                        <a href="#">ntht.trangnguyen@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------- Javascript ------------------------>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        mybutton = document.getElementById("mybtn");
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

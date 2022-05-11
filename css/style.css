@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: transparent !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.welcome {
+  background-image: url(../img/greg-rosenke-6QnEf_b47eA-unsplash.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.animate__animated.animate__fadeOut {
+  --animate-duration: 5s;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(4, 3, 19);
+}
+
+.box-2 {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.box-3 {
+  position: absolute;
+  z-index: 3;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.text-main {
+  color: orangered;
+}
+
+.text-sub {
+  color: rgb(3, 3, 85);
+}
+
+.btn {
+  background-color: orangered !important;
+  border: 0 !important;
+}
+
+.btn:hover {
+  background-color: rgb(247, 99, 45) !important;
+  color: rgb(3, 3, 85);
+}
+
+.navbar {
+  padding: 0 !important;
+}
+
+.profile {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.profile img {
+  height: 350px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.mauform input {
+  border-bottom: 1px solid rgb(240, 232, 232) !important;
+  margin-bottom: 20px;
+}
+
+.pr-15 {
+  padding-right: 50px;
+}
+
+.owl-carousel img {
+  width: 50px !important;
+  height: 50px;
+}
+
+.container {
+  padding-top: 10px;
+  margin: 0 auto !important;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+}
+
+.mauform:hover {
+  box-shadow: 5px 5px 5px 5px rgba(255, 68, 0, 0.1) !important;
+  transform: translateY(-10px) !important;
+  transition: transform 1s;
+}
+
+/* .hieuung{
+    position: absolute;
+    perspective: 240px;
+    top:10%;
+    right:0;
+}
+.hieuung img{
+    transform: rotateY(-10deg);
+    transform-origin: 50% 50% 0px;
+} */
+.nutbam {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.bg-main {
+  background-color: orangered;
+}
+
+.bg-sub {
+  background-color: rgb(3, 3, 85);
+}
+
+.nutchuyentrai {
+  left: -80px !important;
+  ;
+}
+
+.nutchuyenphai {
+  right: -80px !important;
+  ;
+}
+
+/* @media screen and (max-width:414px){
+   .demores{color:red!important;} 
+}
+@media screen and (max-width:768px) and (min-width:414px){
+    .demores{color:yellow!important;} 
+ } */
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
+  animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
+}
+
+.text-focus-in-1 {
+  -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
+  animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
+}
+
+#mybtn {
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+  z-index: 5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#footer {
+  background-color: rgb(3, 3, 85);
+  background-image: url(../img/circle-geometry-science-and-technology-circle-588aa26a85fe550a00b4a972ad849eef.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.chinh {
+  margin: 0 auto;
+}
+
+.adjust img{
+  width:100%;
+  height: 100%;
+}
